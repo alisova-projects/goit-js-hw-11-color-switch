@@ -25,3 +25,30 @@ img {
   max-width: 100%;
   height: auto;
 }
+.wrapper {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 80px;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+.btn {
+  margin-left: 4px;
+  margin-right: 4px;
+  width: 120px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0;
+  background-color: #105469;
+  color: #ffffff;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 3px;
+}
+
+.btn.is-active {
+  background-color: #2196f3;
+}
